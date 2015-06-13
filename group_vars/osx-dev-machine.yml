@@ -1,0 +1,40 @@
+---
+
+homebrew_packages:
+  - tree
+  - watch
+  - wget
+  - autojump
+  - git
+  - git-extras
+  - the_silver_searcher
+  - ccze
+  - tig
+  - lftp
+  - ctags
+  - zsh
+  - zsh-completions
+  - node
+  - sqlite
+  - postgresql
+
+homebrew_cask_packages:
+  - atom
+  - dash
+  - flux
+  - firefox
+  - google-chrome
+  - iterm2
+  - vlc
+  - sublime-text3
+  - transmission
+  - evernote
+  - dropbox
+  - jumpcut
+  - tunnelblick
+  - spectacle
+  - virtualbox
+  - vagrant
+  - vagrant-manager
+  - docker
+  - boot2docker
