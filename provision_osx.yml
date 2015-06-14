@@ -1,6 +1,7 @@
 ---
 - hosts: all
   roles:
+    - {role: ChengLong.vim, tags: ['vim']}
     - {role: ChengLong.zsh, tags: ['zsh']}
     - {role: homebrew, tags: ['homebrew']}
     - {role: homebrew-cask, tags: ['homebrew-cask']}
