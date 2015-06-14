@@ -1,0 +1,17 @@
+---
+
+homebrew_cask_packages:
+  - atom
+  - dash
+  - flux
+  - firefox
+  - google-chrome
+  - iterm2
+  - vlc
+  - sublime-text3
+  - transmission
+  - evernote
+  - dropbox
+  - jumpcut
+  - tunnelblick
+  - spectacle

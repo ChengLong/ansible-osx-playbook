@@ -1,4 +1,6 @@
 ---
 - hosts: all
-  tasks:
-    - include: tasks/homebrew.yml tags=homebrew
+  roles:
+    - {role: ChengLong.zsh, tags: ['zsh']}
+    - {role: homebrew, tags: ['homebrew']}
+    - {role: homebrew-cask, tags: ['homebrew-cask']}

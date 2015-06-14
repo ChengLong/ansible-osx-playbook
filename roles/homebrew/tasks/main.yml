@@ -1,0 +1,10 @@
+---
+- name: Tap homebrew dupes
+  homebrew_tap: tap=homebrew/dupes state=present
+
+- name: Update homebrew
+  homebrew: update_homebrew=yes upgrade_all=yes
+
+- name: Install homebrew packages
+  homebrew: name={{ item }} state=latest
+  with_items: homebrew_packages

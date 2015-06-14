@@ -1,0 +1,10 @@
+---
+- name: Tap homebrew cask
+  homebrew_tap: tap=caskroom/cask state=present
+
+- name: Install homebrew cask
+  command: brew install caskroom/cask/brew-cask
+
+- name: Install homebrew cask packages
+  homebrew_cask: name={{ item }} state=installed
+  with_items: homebrew_cask_packages

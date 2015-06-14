@@ -1,0 +1,19 @@
+---
+
+homebrew_packages:
+  - tree
+  - watch
+  - wget
+  - autojump
+  - git
+  - git-extras
+  - the_silver_searcher
+  - ccze
+  - tig
+  - lftp
+  - ctags
+  - zsh
+  - zsh-completions
+  - node
+  - sqlite
+  - postgresql
