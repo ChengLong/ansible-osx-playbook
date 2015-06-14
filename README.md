@@ -22,8 +22,8 @@ The playbook will do the following:
 
 1. Install and config vim using [ChengLong.vim](https://github.com/ChengLong/ansible-vim)
 2. Install and config zsh using [ChengLong.zsh](https://github.com/ChengLong/ansible-zsh)
-3. Install these Homebrew formulae
-4. Install these Homebrew Cask packages 
+3. Install these [Homebrew formulae](https://github.com/ChengLong/ansible-osx-playbook/blob/master/roles/homebrew/vars/main.yml)
+4. Install these [Homebrew Cask packages](https://github.com/ChengLong/ansible-osx-playbook/blob/master/roles/homebrew-cask/vars/main.yml)
 
 Author
 ===
