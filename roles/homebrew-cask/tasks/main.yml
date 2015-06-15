@@ -1,6 +1,9 @@
 ---
 - name: Tap homebrew cask
-  homebrew_tap: tap=caskroom/cask state=present
+  homebrew_tap: tap={{ item }} state=present
+  with_items:
+    - caskroom/cask
+    - caskroom/versions
 
 - name: Install homebrew cask
   command: brew install caskroom/cask/brew-cask
