@@ -12,8 +12,6 @@ homebrew_packages:
   - tig
   - lftp
   - ctags
-  - zsh
-  - zsh-completions
   - node
   - sqlite
   - postgresql
